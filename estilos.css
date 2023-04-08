@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dedddd;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 800px; /*fijarse de incrementar la columna de fotos*/
+    margin: auto;
+}
+
+/*--------------------------------------------------------------------------HEADER---------------------------*/
+.img-logo{
+    width: 150px;
+}
