@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
+/*poner variables de colores*/
+/*poner canvas a los márgenes con animaciones*/
+
 body{
-    background-color: #dedddd;
+    background-color: #f3efef;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -20,6 +23,57 @@ a {
 }
 
 /*--------------------------------------------------------------------------HEADER---------------------------*/
-.img-logo{
-    width: 150px;
+header{
+    padding: 40px 0;
 }
+
+header .logo{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header .logo .img-logo{
+    width: 100px;
+}
+
+header .logo p{
+    color: #9b9b9b;
+}
+
+header form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+header .barra-busqueda{
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    padding: 0 20px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+header .categorias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header .categorias a{
+    color: #9b9b9b;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header .categorias a.activo{
+    color: #000;
+}
+
+/*--------------------------------------------------------------------------galería-----------------------*/
