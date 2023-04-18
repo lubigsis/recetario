@@ -16,10 +16,24 @@ a {
     text-decoration: none;
 }
 
+.contenedor-canvas{
+    width: 96%;
+    max-width: 1000px;
+    height: 100vh;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .contenedor{
     width: 90%;
     max-width: 800px; /*fijarse de incrementar la columna de fotos*/
+    height: 100vh;
     margin: auto;
+    border: 2px solid rgb(98, 0, 255);
 }
 
 /*--------------------------------------------------------------------------HEADER---------------------------*/
@@ -76,4 +90,16 @@ header .categorias a.activo{
     color: #000;
 }
 
-/*--------------------------------------------------------------------------galería-----------------------*/
+/*--------------------------------------------------------------------------canvas-----------------------*/
+.board1{
+    background-color: pink;
+    border: 1px solid blueviolet;
+    height: 100vh;
+    
+}
+
+.board2{
+    background-color: orange;
+    border: 1px solid royalblue;
+    height: 100vh;
+}
